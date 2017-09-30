@@ -30,6 +30,7 @@ public class SearchDaoImpl implements SearchDao {
 		// product_price 是金属的 query
 		// query.set("q", "product_price:金属");
 		
+		
 
 		if (sh.getQueryString() == null || sh.getQueryString() == "") {
 			query.set("q", "product_name:*");
